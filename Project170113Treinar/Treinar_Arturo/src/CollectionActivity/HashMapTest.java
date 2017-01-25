@@ -2,6 +2,9 @@ package CollectionActivity;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.SortedMap;
+
+import javax.print.DocFlavor.STRING;
 
 public class HashMapTest {
 	public static void main(String[] args) {
@@ -9,12 +12,12 @@ public class HashMapTest {
 		List<String> n1 = new LinkedList<>();
 		add(n1, "Jorge", "Henrique", "Jadine", "Gleidson", "Hugo", "Cristiano", "Arturo", "Artur", "Karina", "Bruno",
 				"Gabriel", "Cristiano");
-
+		System.out.println("/n");
 		for (int i = 0; i < n1.size(); i++) {
-			System.out.println("Primeria Letra".substring(0, 1));
+			System.out.println("Primeria Letra");
+			System.out.println(n1.size());
 
 		}
-
 
 	}
 
