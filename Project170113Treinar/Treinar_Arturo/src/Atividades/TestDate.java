@@ -14,9 +14,9 @@ public class TestDate {
 		Calendar c = Calendar.getInstance();
 		System.out.println("Today is  "+c.getTime());
 
-		try (Scanner = new Scanner(System.in)) {
+//		try (Scanner = new Scanner(System.in)) {
 			LocalDate birthday = LocalDate.of(1974, Month.MAY, 4);
-				}
+//				}
 		LocalDate today = LocalDate.now(); 
 		Period p = Period.between(birthday, today);
 		long p2 = ChronoUnit.DAYS.between(birthday, today);
